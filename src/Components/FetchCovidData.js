@@ -2,9 +2,7 @@ import React,{useEffect,useState} from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
 import '../App.css';
-import Navbar from './Navbar';
-import {Route, Redirect, Switch} from 'react-router-dom';
-import StateWise from './StateWise';
+
 
 function FetchCovidData() {
   
